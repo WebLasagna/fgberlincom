@@ -1,0 +1,140 @@
+#app {
+  height: 100%;
+}
+
+body {
+  color: #ffffff;
+  background-color: #2C2F33;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.VueCarousel.center .VueCarousel-navigation {
+  .VueCarousel-navigation-prev {
+    margin-top: 40px;
+    left: 125px !important;
+  }
+
+  .VueCarousel-navigation-next {
+    margin-top: 40px;
+    right: 125px !important;
+  }
+}
+
+.light {
+  background-color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.light,
+.light input,
+.light .theme-name,
+.light .chip-title > h1,
+.light .language {
+  color: #000 !important;
+}
+
+.light .chip-title,
+.light .card.quite-black,
+.light .group-chip,
+.light .student-chip,
+.light .referral-link-chip {
+  background-color: #bdbdbd !important;
+}
+
+.light .group-chip,
+.light .student-chip,
+.light .referral-link-chip {
+  background-color: #616161 !important;
+}
+
+.light .btn-large.black {
+  background-color: #212121 !important;
+}
+
+.divider {
+  background-color: #757575;
+  margin: 15px 0 15px 0;
+}
+
+h1, h2, h3, a {
+  font-weight: 600;
+}
+
+.nav-wrapper li a {
+  font-weight: 400;
+}
+
+h1 {
+  margin: 35px 0 20px 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+input {
+  color: #fff;
+}
+
+.btn, .btn-small, .toast {
+  border-radius: 20px;
+}
+
+.btn-large, .btn-logout {
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: 1px 1px 3px #757575;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.list-chip-row>.col {
+  padding: 0 6px 0 6px;
+}
+
+.row.moff {
+  margin: 0;
+}
+
+.row-flex {
+  display: inline-flex;
+}
+
+.field {
+  .row {
+    margin-bottom: 0;
+
+    .col {
+      padding-left: 0;
+    }
+  }
+}
+
+.field.col {
+  padding: 0;
+}
+
+.row .col.offset-m0 {
+  margin-left: auto;
+}
+
+@import 'animatrans.scss';
+
+@import 'elements.scss';
+
+@import 'colors.scss';

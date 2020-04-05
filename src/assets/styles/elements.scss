@@ -1,0 +1,163 @@
+.error-message {
+  display: inline-flex;
+  margin-top: 10px;
+  padding: 3px 5px 3px 5px;
+  box-shadow: 1px 1px 3px #9e9e9e;
+  border-radius: 25px;
+  background-color: #f44336;
+  width: fit-content;
+}
+
+.success-message {
+  display: inline-flex;
+  margin-top: 10px;
+  padding: 3px 5px 3px 5px;
+  box-shadow: 1px 1px 3px #9e9e9e;
+  border-radius: 25px;
+  background-color: #43a047;
+  width: fit-content;
+}
+
+.translation-warning {
+  display: block;
+  width: fit-content;
+  margin: 15px 0 15px 0;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #f44336;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.chip-title {
+  display: inline-flex;
+  margin-top: 30px;
+  padding: 12px 20px 12px 20px;
+  box-shadow: 1px 1px 3px #424242;
+  border-radius: 25px;
+  background-color: #23272A;
+  width: fit-content;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  h1
+  {
+    margin: 0;
+  }
+}
+
+.chip-title:hover {
+  color: #ff9800;
+}
+
+.list-chip {
+  display: inline-flex;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 25px;
+  padding: 3px 6px 3px 6px;
+  margin: 3px;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.list-chip-input {
+  height: 25px !important;
+  width: 50px !important;
+  margin: 1px !important;
+  border: 0 !important;
+}
+
+.edit-input {
+  display: inline-flex;
+  color: #fff;
+  font-size: 1.4rem !important;
+  max-width: 85px !important;
+  height: 30px !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.student-chip {
+  display: inline-flex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #23272A;
+  border-radius: 25px;
+  padding: 6px 9px 6px 9px;
+  margin-top: 10px;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.student-chip:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #757575;
+}
+
+.btn-back {
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.field {
+  display: block;
+
+  .field-title
+  {
+    display: inline-block;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+
+  .field-subtitle
+  {
+    display: block;
+    margin-left: 8px;
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .field-content
+  {
+    display: inline;
+    font-size: 21px;
+    color: #fff;
+  }
+}
+
+.next-icon {
+  color: #fff;
+  font-size: 3rem !important;
+}
+
+.action-icon {
+  cursor: pointer;
+
+  &.medium {
+    margin: 20px 8px 20px 8px;
+    font-size: 2.5rem;
+  }
+}
+
+.input-h1 {
+  height: 45px !important;
+  margin: 30px 0 10px 0 !important;
+  text-align: center;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 2.3rem !important;
+  font-weight: 600;
+}
+
+.input-p {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 1.3rem !important;
+}

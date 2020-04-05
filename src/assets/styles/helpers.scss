@@ -1,0 +1,19 @@
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+.caps::first-letter {
+  text-transform: capitalize !important;
+}
+
+.round {
+  border-radius: 20px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.flex {
+  display: inline-flex;
+}
