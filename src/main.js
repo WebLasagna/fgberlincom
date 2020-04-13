@@ -4,14 +4,12 @@ import router from './router'
 import store from './store'
 import VueI18n from 'vue-i18n'
 import axios from 'axios'
-import VueAxios from 'vue-axios'
 import VueAnalytics from 'vue-analytics'
 import VueCarousel from 'vue-carousel'
 import VueSocketIOExt from 'vue-socket.io-extended'
 import io from 'socket.io-client'
 import './registerServiceWorker'
 
-Vue.use(VueAxios, axios)
 Vue.use(VueAnalytics, {
   id: 'UA-127467151-1',
   router
